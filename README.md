@@ -89,7 +89,7 @@ for i in range(len(X)):
 print(correct/len(X))
 ```
 
-📌 **Result**: Accuracy ≈ **49%**  
+📌 **Result**: Accuracy ≈ from **49%** to **62%**  
 *(Note: Since K-Means is unsupervised, clusters may not align perfectly with survival labels.)*  
 
 ---
