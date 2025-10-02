@@ -6,7 +6,8 @@ The goal is to cluster passengers into groups (survived vs. not survived) using 
 ---
 
 ## 📌 Overview
-- **Dataset**: [Kaggle Titanic Dataset](https://www.kaggle.com/c/titanic/data)  
+- **Dataset**: [Kaggle Titanic Dataset]train_url = "http://s3.amazonaws.com/assets.datacamp.com/course/Kaggle/train.csv"
+"test_url = "http://s3.amazonaws.com/assets.datacamp.com/course/Kaggle/test.csv")  
 - **Algorithm**: K-Means Clustering (Unsupervised Machine Learning)  
 - **Libraries Used**: `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`  
 
@@ -28,8 +29,8 @@ from sklearn.preprocessing import MinMaxScaler, LabelEncoder
 
 ### 🔹 2. Load Dataset
 ```python
-train = pd.read_csv("train.csv")
-test = pd.read_csv("test.csv")
+train_url = "http://s3.amazonaws.com/assets.datacamp.com/course/Kaggle/train.csv"
+test_url = "http://s3.amazonaws.com/assets.datacamp.com/course/Kaggle/test.csv"
 ```
 
 - **Train Data**: 891 records (with Age, Sex, Fare, Class, etc.)  
@@ -103,16 +104,15 @@ print(correct/len(X))
 
 ## 📚 References
 - [Scikit-learn KMeans Documentation](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html)  
-- [Kaggle Titanic Dataset](https://www.kaggle.com/c/titanic)  
 - [Seaborn FacetGrid](https://seaborn.pydata.org/generated/seaborn.FacetGrid.html)  
 
 ---
 
 ## 🔗 Explore My Other Repositories
-- 📊 [R Programming Practicals](https://github.com/KaustubhSN12/R-Practice)  
+- 📊 [R Programming Practicals](https://github.com/KaustubhSN12/HandsOn-R-Programming-Lab)  
 - 📈 [Power BI – Salary, Gender & Family Trends](https://github.com/KaustubhSN12/Power-BI_salary-gender-family-trends)  
-- 🖥️ [Software Engineering Basics](https://github.com/KaustubhSN12/Software-Engineering-Basics)  
-- 🐍 [Python Practice Hub](https://github.com/KaustubhSN12/Python-Practice-Hub)  
+- 🖥️ [Software Engineering Basics](https://github.com/KaustubhSN12/Software-Engineering_Basics)  
+- 🐍 [Python Practice Hub](https://github.com/KaustubhSN12/Python_Exercises_Collection)  
 
 ---
 
